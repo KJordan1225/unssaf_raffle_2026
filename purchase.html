@@ -74,23 +74,18 @@
       left: 100%;
       margin-top: -1px;
     }
-    .full-page-container {
-        margin-top: 200px;
-        height: 100vh;
-      background-image: url('images/homepage_image.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      text-shadow: 1px 1px 4px black;
-      font-size: 2rem;
-      max-width: 800px;
-      /* margin: 0 auto; */
-      padding: 2rem;
-    }
+    .form-container {
+		max-width: 800px;
+		margin: 0 auto;
+		background: #fff;
+		padding: 20px;
+		box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+	}
+	iframe {
+		width: 100%;
+		height: 900px;
+		border: none;
+	}
   </style>
 </head>
 <body>
@@ -158,9 +153,43 @@
     <p>Gamma Alpha Chapter of Omega Psi Phi Fraternity, Inc.</p>
   </header>   -->
 
-  <section>
-    <img src="images/homepage_image.png" alt="Homepage Image" class="img-fluid" />
-  </section>
+<header>
+    <h1>UNSSAF/Gamma Alpha Chapter Raffle 2026</h1>
+    <p>Raffle with $2000 GRAND Prize!!!</p>
+  </header>  
+ 
+  <style>
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 10px;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    .float-img {
+      float: left;
+      margin: 10px 15px 15px 0;
+      width: 200px; /* adjust as needed */ 
+      height: 200px; /* adjust as needed */
+    }
+
+    section p, section em {
+      text-align: left;
+    }
+
+    header p {
+        text-align: center;
+    }
+  </style>
+
+  <section class="form-container">
+	<h2>Purchase Now</h2>
+	<p>Please complete the form below enter purchase information.</p>
+	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiYCKCE7tG4G2vcPQHY92GeP5bOBSET02aoPvFCBz8wQ3p8Q/viewform?embedded=true" 
+			loading="lazy">Loading…</iframe>
+    </section>
 
   <section>
     <a href="https://cash.app/$KeithEverette" target="_blank" style="background-color:#00C244; color:white; padding:12px 24px; text-decoration:none; font-weight:bold; font-size:16px; border-radius:8px; display:inline-block;">
@@ -169,6 +198,7 @@
     <p style="font-size:14px; color:#333;">Please include your name + email address + "RAFFLE" in the notes.</p>
 
   </section>
+
 
   <footer>
     <p>© 2026 Gamma Alpha Chapter – Omega Psi Phi Fraternity, Inc.</p>
